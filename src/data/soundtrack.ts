@@ -42,6 +42,7 @@ export const sceneSoundtrack: Record<string, SoundtrackKey> = {
   "scene-one": "beginning",
   "scene-two": "beginning",
   "scene-three": "middle",
+  "scene-benin": "middle",
   "scene-four": "middle",
   "scene-five": "ending",
   "final-scene": "ending",

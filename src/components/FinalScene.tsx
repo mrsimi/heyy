@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { finalSceneCopy } from "@/data/story";
 import { FinalDoodle } from "./FinalDoodle";
+import { AdventureResponse } from "./AdventureResponse";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,11 +39,12 @@ export function FinalScene() {
         .to(".final-with-you", { autoAlpha: 0, duration: 0.4 }, 10.25)
         .to(".memory-trace", { autoAlpha: 0, duration: 0.5 }, 10.55)
         .to(".final-pair", { xPercent: 82, scale: 0.88, duration: 1.35, ease: "sine.inOut" }, 10.7)
-        .fromTo(".final-adventures", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.55, ease: "sine.out" }, 12.1);
+        .fromTo(".final-adventures", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.55, ease: "sine.out" }, 12.1)
+        .fromTo(".adventure-response", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.45, ease: "sine.out" }, 13.05);
     }, scene);
 
     return () => context.revert();
   }, []);
 
-  return <section className="final-scene" ref={sceneRef}><div className="paper-grain" /><p className="scene-marker">the end / for now</p><FinalDoodle /><div className="final-copy final-somehow">{finalSceneCopy.somehow}</div><div className="final-copy final-beginning">{finalSceneCopy.beginning}</div><div className="final-copy final-glad">{finalSceneCopy.glad}</div><div className="final-copy final-next">{finalSceneCopy.next}</div><div className="final-copy final-with-you">{finalSceneCopy.withYou}</div><div className="final-adventures">{finalSceneCopy.adventures}</div></section>;
+  return <section className="final-scene" ref={sceneRef}><div className="paper-grain" /><p className="scene-marker">the end / for now</p><FinalDoodle /><div className="final-copy final-somehow">{finalSceneCopy.somehow}</div><div className="final-copy final-beginning">{finalSceneCopy.beginning}</div><div className="final-copy final-glad">{finalSceneCopy.glad}</div><div className="final-copy final-next">{finalSceneCopy.next}</div><div className="final-copy final-with-you">{finalSceneCopy.withYou}</div><div className="final-adventures">{finalSceneCopy.adventures}</div><AdventureResponse /></section>;
 }

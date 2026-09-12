@@ -23,9 +23,17 @@ export const sceneTwoCopy = {
 
 export const sceneThreeCopy = {
   opening: "The next time we went out together was for something we both love — the cinemas.",
-  film: "And apart from being the best film I've seen this year...",
+  film: "And apart from The Odyssey being the best film I've seen this year...",
   realization: "it also made me realize...",
   ending: "you're someone I want to do everything else with.",
+};
+
+export const beninSceneCopy = {
+  trip: "The trip to Benin Republic was great...",
+  wonderful: "and I got to spend time with the most wonderful woman.",
+  disbelief: "I still can't believe...",
+  together: "we got on a bike together",
+  expressway: "on the expressway.",
 };
 
 export const cinemaTime = {

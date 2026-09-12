@@ -55,7 +55,7 @@ export function SceneFour() {
   return (
     <section className="scene-four" ref={sceneRef}>
       <div className="paper-grain" />
-      <p className="scene-marker">four / a little while later</p>
+      <p className="scene-marker">five / a little while later</p>
       <p className="scene-four-scroll">keep counting <span>↓</span></p>
       <TimePassageDoodle counter={counter} />
       <div className="scene-four-copy scene-four-opening">{sceneFourCopy.opening}</div>

@@ -15,7 +15,7 @@ export function RestaurantDoodle() {
           <div className="restaurant-door" />
           <div className="restaurant-window"><i /><i /></div>
         </div>
-        <div className="restaurant-sign">MEXICAN<br />FOOD</div>
+        <div className="restaurant-sign">ENCANTO<br />MEXICAN</div>
         <span className="little-sun">✳</span>
       </div>
       <div className="map-pin"><i /> <span>the idea</span></div>

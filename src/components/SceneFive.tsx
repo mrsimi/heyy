@@ -55,5 +55,5 @@ export function SceneFive() {
     return () => context.revert();
   }, []);
 
-  return <section className="scene-five" ref={sceneRef}><div className="paper-grain" /><p className="scene-marker">five / the little things</p><p className="scene-five-scroll">take your time <span>↓</span></p><ThingsDoodle /><div className="scene-five-copy scene-five-opening">{sceneFiveCopy.opening}</div><div className="scene-five-copy scene-five-watching">{sceneFiveCopy.watching}</div><div className="scene-five-copy scene-five-photos">{sceneFiveCopy.photos}</div><div className="scene-five-copy scene-five-talking">{sceneFiveCopy.talking}</div><div className="scene-five-copy scene-five-ending">{sceneFiveCopy.ending}</div></section>;
+  return <section className="scene-five" ref={sceneRef}><div className="paper-grain" /><p className="scene-marker">six / the little things</p><p className="scene-five-scroll">take your time <span>↓</span></p><ThingsDoodle /><div className="scene-five-copy scene-five-opening">{sceneFiveCopy.opening}</div><div className="scene-five-copy scene-five-watching">{sceneFiveCopy.watching}</div><div className="scene-five-copy scene-five-photos">{sceneFiveCopy.photos}</div><div className="scene-five-copy scene-five-talking">{sceneFiveCopy.talking}</div><div className="scene-five-copy scene-five-ending">{sceneFiveCopy.ending}</div></section>;
 }

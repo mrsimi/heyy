@@ -6,7 +6,7 @@ export function CinemaDoodle() {
         <div className="cinema-glow" />
         <div className="cinema-sign"><span>THE</span><strong>CINEMA</strong><i>✳</i></div>
         <div className="cinema-facade">
-          <div className="poster poster-one"><i>FILM<br />NIGHT</i></div>
+          <div className="poster poster-one"><i>THE<br />ODYSSEY</i></div>
           <div className="cinema-doors"><i /><i /><b>now showing</b></div>
           <div className="poster poster-two"><i>ONE<br />MORE<br />SCENE</i></div>
         </div>
