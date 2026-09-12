@@ -40,6 +40,7 @@ export function FinalScene() {
         .to(".memory-trace", { autoAlpha: 0, duration: 0.5 }, 10.55)
         .to(".final-pair", { xPercent: 82, scale: 0.88, duration: 1.35, ease: "sine.inOut" }, 10.7)
         .fromTo(".final-adventures", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.55, ease: "sine.out" }, 12.1)
+        .call(() => window.dispatchEvent(new Event("adventure-response-ready")), [], 13.05)
         .fromTo(".adventure-response", { autoAlpha: 0, y: 8 }, { autoAlpha: 1, y: 0, duration: 0.45, ease: "sine.out" }, 13.05);
     }, scene);
 
